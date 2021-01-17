@@ -1,7 +1,7 @@
-                  _    _    _    _    _    _    _     _    _    _    _    _    _    _
-                 / \  / \  / \  / \  / \  / \  / \   / \  / \  / \  / \  / \  / \  / \
-                ( F )( e )( a )( t )( u )( r )( e ) ( S )( n )( i )( p )( p )( e )( t )
-                 \_/  \_/  \_/  \_/  \_/  \_/  \_/   \_/  \_/  \_/  \_/  \_/  \_/  \_/
+                                  _    _    _    _    _    _    _     _    _    _    _    _    _    _
+                                 / \  / \  / \  / \  / \  / \  / \   / \  / \  / \  / \  / \  / \  / \
+                                ( F )( e )( a )( t )( u )( r )( e ) ( S )( n )( i )( p )( p )( e )( t )
+                                 \_/  \_/  \_/  \_/  \_/  \_/  \_/   \_/  \_/  \_/  \_/  \_/  \_/  \_/
 # Introduction
 > What is Feature snippet?
 
@@ -23,7 +23,7 @@ To fetch output data
             output.json()
 
 Sample Output
-```json
+```text
 {'FS': {'snippet': '<div class="mod" data-md="83" lang="en-IN"><!--m--><div '
                    'class="di3YZe"><div aria-level="3" class="co8aDb XcVN5d" '
                    'role="heading"><b>The Classic Method</b></div><div '
