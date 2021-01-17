@@ -12,7 +12,7 @@ Featured snippets are selected search results that are featured on top of Google
 ```python
 import requests
 import json
-url = 'http://localhost:5000/FeatureSnippet'
+url = 'https://feature-snippet.herokuapp.com/FeatureSnippet'
 headers = {'content-type': 'application/json'}
 query=json.dumps({"q":"steps for cooking rice"})
 output = requests.post(url, data = query,verify=True,headers=headers)
