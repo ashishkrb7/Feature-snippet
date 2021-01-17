@@ -20,10 +20,13 @@ query=json.dumps({"q":"steps for cooking rice"})
 output = requests.post(url, data = query,verify=True,headers=headers)
 ```
 To check status code
-            output.status_code
+```
+output.status_code
+```
 To fetch output data
-            output.json()
-
+```
+output.json()
+```
 Sample Output
 ```text
 {'FS': {'snippet': '<div class="mod" data-md="83" lang="en-IN"><!--m--><div '
