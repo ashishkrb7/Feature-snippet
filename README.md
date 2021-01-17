@@ -9,6 +9,8 @@ Featured snippets are selected search results that are featured on top of Google
 
 > API request
 
+![](./APIimage.PNG)
+
 ```python
 import requests
 import json
