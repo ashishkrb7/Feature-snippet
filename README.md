@@ -20,11 +20,11 @@ query=json.dumps({"q":"steps for cooking rice"})
 output = requests.post(url, data = query,verify=True,headers=headers)
 ```
 To check status code
-```
+```python
 output.status_code
 ```
 To fetch output data
-```
+```python
 output.json()
 ```
 Sample Output
